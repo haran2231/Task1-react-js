@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: beige;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.booklist{
+  width: 90%;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 25px;
+  text-align: center;
+  padding-left: 150px;
+}
+
+.book{
+  width: 20%;
+  border-style: double;
+  height: 5%;
+  padding: 15px 0px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin: 10px 0px;
+}
+
+
+.book img{
+  width: 30%;
+  height: 50%;
+}
+
+.heading{
+  text-align: center;
+  font-size: 32px;
+  font-weight: bolder;
+  color: brown;
+}
+
+h1:hover{
+  color: rgb(122, 16, 6);
+}
+h4:hover{
+  color: blue;
+}
+
+button:hover{
+  background-color: cadetblue;
+}
+
+.book h1,h4,button {
+  cursor: pointer;
+}
+
